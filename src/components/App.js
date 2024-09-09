@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { updateName, updateEmail } from './action';
-import App from '../../../assignment-temp/src/App';
 
 const App = () => {
   const dispatch = useDispatch();
